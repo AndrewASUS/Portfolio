@@ -197,6 +197,7 @@ section {
 
 .section__pic-container {
     display: flex;
+    height: 5px;
 }
 
 
@@ -233,6 +234,12 @@ section {
     justify-content: center;
     margin-top: 1rem;
     gap: 1rem;
+}
+
+
+#contact-info-btn:hover {
+    background: white;
+    color: black;
 }
 
 
@@ -343,9 +350,10 @@ section {
     justify-content: center;
     align-items: center;
     gap: 4rem;
-    height: 80%;
+    height: 50%;
     left: 1%;
 }
+
 
 /* --- EXPERIENCE --- EXPERIENCE --- EXPERIENCE --- EXPERIENCE --- EXPERIENCE --- ABOEXPERIENCEUT --- EXPERIENCE --- */
 
@@ -423,6 +431,18 @@ section {
 .project-btn {
     color: black;
     border-color: rgb(163, 163, 163);
+}
+
+
+#tetris{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+#tesla {
+    padding-top: 30px;
+    padding-bottom: 130px;
 }
 
 

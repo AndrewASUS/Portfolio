@@ -1,4 +1,4 @@
-/* --- SCREEN SIZE BELOW 1400PX --- SCREEN SIZE BELOW 1400PX --- SCREEN SIZE BELOW 1400PX ---*/
+/* --- SCREEN SIZE ABOVE 1400PX --- SCREEN SIZE ABOVE 1400PX --- SCREEN SIZE ABOVE 1400PX ---*/
 @media screen and (min-width: 1400px) {
     #profile {
         height: 83vh;
@@ -13,6 +13,20 @@
 }
 
 
+/* --- SCREEN SIZE ABOVE 1200PX --- SCREEN SIZE ABOVE 1200PX --- SCREEN SIZE ABOVE 1200PX --- */
+@media screen and (min-width: 1201px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-containers {
+        flex-wrap: wrap;
+    }
+    #hamburger-nav {
+        display: none;
+    }
+}
+
 
 /* --- SCREEN SIZE BELOW 1200PX --- SCREEN SIZE BELOW 1200PX --- SCREEN SIZE BELOW 1200PX --- */
 @media screen and (max-width: 1200px) {
@@ -20,7 +34,7 @@
         display: none;
     }
     #hamburger-nav {
-        display: none;
+        display: flex;
     }
     #experience, .experience-details-container {
         margin-top: 2rem;
@@ -49,7 +63,7 @@
 
 
 
-/* --- SCREEN SIZE BELOW 600PX --- SCREEN SIZE BELOW 600PX --- SCREEN SIZE BELOW 600PX --- */
+/* --- SCREEN SIZE BELOW 1199PX --- SCREEN SIZE BELOW 1199PX --- SCREEN SIZE BELOW 1199PX --- */
 @media screen and (max-width: 1199px) {
     #contact, footer {
         height: 40vh;
