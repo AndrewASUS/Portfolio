@@ -440,7 +440,7 @@ section {
 }
 
 
-#tetris{
+#tetris {
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -448,7 +448,12 @@ section {
 
 #tesla {
     padding-top: 30px;
-    padding-bottom: 130px;
+    margin-bottom: 280px;
+}
+
+#pythag {
+    margin-top: 30px;
+    margin-bottom: 90px;
 }
 
 
